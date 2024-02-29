@@ -143,8 +143,8 @@ export const RESUME_DATA = {
       techStack: ["ReactJS", "NodeJS", "ExpressJS", "MySQL", "Raspberry Pi", "Firebase"],
       description: "A production-level digital student attendance system",
       link: {
-        label: "projx-hbp.web.app",
-        href: "https://projx-hbp.web.app/",
+        label: "mams-siso.wpi.edu",
+        href: "https://mams-siso.wpi.edu",
       },
     },
     {
@@ -152,8 +152,8 @@ export const RESUME_DATA = {
       techStack: ["Firebase", "ExpressJS", "ReactJS", "NodeJS", "Ant-Design"],
       description: "Kickstarting careers through tailored project recommendations",
       link: {
-        label: "roadmap-wpi.web.app",
-        href: "https://roadmap-wpi.web.app",
+        label: "projx-hbp.web.app",
+        href: "https://projx-hbp.web.app/",
       },
     },
     {
