@@ -93,7 +93,7 @@ export const RESUME_DATA = {
       company: "Rakuten",
       link: "https://sixthsense.rakuten.com/platform/cognitive-ai",
       badges: ["In-Person"],
-      title: "Software Engineering Learning Intern (Paid)",
+      title: "Software Engineering Learning Intern",
       start: "Jun 2023",
       end: "Aug 2024",
       description:
@@ -113,7 +113,7 @@ export const RESUME_DATA = {
       company: "Rakuten SixthSense",
       link: "https://sixthsense.rakuten.com/platform/cognitive-ai",
       badges: ["Remote"],
-      title: "Software Engineering Learning Intern (Unpaid)",
+      title: "Software Engineering Learning Intern",
       start: "Jun 2022",
       end: "Aug 2023",
       description:
@@ -141,10 +141,19 @@ export const RESUME_DATA = {
     {
       title: "MAMS SISO",
       techStack: ["ReactJS", "NodeJS", "ExpressJS", "MySQL", "Raspberry Pi", "Firebase"],
-      description: "A digital student attendance system",
+      description: "A production-level digital student attendance system",
       link: {
-        label: "mams-siso.wpi.edu",
-        href: "https://mams-siso.wpi.edu",
+        label: "projx-hbp.web.app",
+        href: "https://projx-hbp.web.app/",
+      },
+    },
+    {
+      title: "ProjX",
+      techStack: ["Firebase", "ExpressJS", "ReactJS", "NodeJS", "Ant-Design"],
+      description: "Kickstarting careers through tailored project recommendations",
+      link: {
+        label: "roadmap-wpi.web.app",
+        href: "https://roadmap-wpi.web.app",
       },
     },
     {

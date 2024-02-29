@@ -133,9 +133,9 @@ export default function Page() {
                   Relevant coursework: {education.coursework}
                 </CardContent>
                 </div>
-                <div className="left">
+                {/* <div className="left">
                     <img src={education.image.src} alt="WashU Logo" />
-                  </div>
+                  </div> */}
                 </div>
               </Card>
             );
