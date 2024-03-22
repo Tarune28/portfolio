@@ -28,9 +28,9 @@ export const RESUME_DATA = {
   locationLink: "https://www.google.com/maps/place/Massachusetts",
   about: "Incoming Freshman at Washington University STL",
   summary:
-    "I am a senior at the Massachusetts Academy of Math & Science and next year I’ll be matriculating to WashU in STL. I’m primarily interested in computer science and finance, and so far, I’ve explored the real-world applications of these fields. Aside from these interests, you can find me working on poetry, journalism articles, op-eds, journalism articles (check out 365toJapan.com!).",
+    "I am an incoming student at WashU in STL, primarily interested in computer science and finance. So far, I’ve explored the real-world applications of these fields. Aside from these interests, you can find me working on poetry, journalism articles, op-eds, journalism articles (check out 365toJapan.com!).",
   avatarUrl: "https://media.licdn.com/dms/image/D5603AQGMGKatTrYgvQ/profile-displayphoto-shrink_200_200/0/1699991688518?e=1713398400&v=beta&t=ZjvJcMuGhequzZO0QRkAJ1Ka2HHtKJvkeb-x4RA8Hbg",
-  personalWebsiteUrl: "https://charlestang.dev",
+  personalWebsiteUrl: "https://taruneswar.com",
   contact: {
     email: "teswar@wpi.edu",
     // tel: "+19784939450",
@@ -58,13 +58,13 @@ export const RESUME_DATA = {
       end: "(2028)",
     },
     {
-      school: "Massachusetts Academy of Math and Science",
+      school: "Worcester Polytechnic Institute",
       image: mams,
-      degree: "High School Diploma and Dual Enrollment @ WPI",
+      degree: "Computer Science",
       coursework:
         "Calculus, Discrete Math, Algorithms, Systems Programming Concepts, Accelerated Object Oriented Programming, Intermediate Japanese I",
       gpa: "4.0",
-      start: "2020",
+      start: "2023",
       end: "2024",
     },
   ],
