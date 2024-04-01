@@ -32,7 +32,7 @@ export const RESUME_DATA = {
   avatarUrl: "https://media.licdn.com/dms/image/D5603AQGMGKatTrYgvQ/profile-displayphoto-shrink_200_200/0/1699991688518?e=1713398400&v=beta&t=ZjvJcMuGhequzZO0QRkAJ1Ka2HHtKJvkeb-x4RA8Hbg",
   personalWebsiteUrl: "https://taruneswar.com",
   contact: {
-    email: "teswar@wpi.edu",
+    email: "e.tarun@wustl.edu",
     // tel: "+19784939450",
     social: [
       {
