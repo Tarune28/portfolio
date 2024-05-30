@@ -29,7 +29,7 @@ export const RESUME_DATA = {
   about: "Incoming Freshman at Washington University STL",
   summary:
     "I am an incoming student at WashU in STL, primarily interested in computer science and finance. So far, I’ve explored the real-world applications of these fields. Aside from these interests, you can find me working on poetry, journalism articles, op-eds, journalism articles (check out 365toJapan.com!).",
-  avatarUrl: "https://media.licdn.com/dms/image/D5603AQGMGKatTrYgvQ/profile-displayphoto-shrink_200_200/0/1699991688518?e=1713398400&v=beta&t=ZjvJcMuGhequzZO0QRkAJ1Ka2HHtKJvkeb-x4RA8Hbg",
+  avatarUrl: "https://media.licdn.com/dms/image/D4E03AQFZd2n_1CkDKA/profile-displayphoto-shrink_400_400/0/1713739995438?e=1722470400&v=beta&t=sxLiupx3HZ1dByNk-q9Ly02c1RGyRFjRDGJrql2B45k",
   personalWebsiteUrl: "https://taruneswar.com",
   contact: {
     email: "e.tarun@wustl.edu",
