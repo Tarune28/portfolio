@@ -184,15 +184,15 @@ export const RESUME_DATA = {
         href: "https://arxiv.org/abs/2306.12435v2",
       },
     },
-    {
-      title: "TriggerCalc",
-      techStack: ["ReactJS", "NodeJS", "Bootstrap", "Git"],
-      description: "A calculator to help women struggling with infertility/pregnancy process",
-      link: {
-        label: "triggercalc.com",
-        href: "https://triggercalc.com/",
-      },
-    }
+    // {
+    //   title: "TriggerCalc",
+    //   techStack: ["ReactJS", "NodeJS", "Bootstrap", "Git"],
+    //   description: "A calculator to help women struggling with infertility/pregnancy process",
+    //   link: {
+    //     label: "triggercalc.com",
+    //     href: "https://triggercalc.com/",
+    //   },
+    // }
   ],
   honors: [
     {
