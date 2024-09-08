@@ -20,16 +20,17 @@ import {
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 import washu from "../images/logos/washu1.png";
 import mams from "../images/logos/mams.png";
+import profile from "../images/logos/headshot.jpeg";
 
 export const RESUME_DATA = {
   name: "Tarun Eswar",
   initials: "TE",
   location: "Massachusetts, USA",
   locationLink: "https://www.google.com/maps/place/Massachusetts",
-  about: "Incoming Freshman at Washington University STL",
+  about: "Computer Science + Econ at WashU",
   summary:
-    "I am an incoming student at WashU in STL, primarily interested in computer science and finance. So far, I’ve explored the real-world applications of these fields. Aside from these interests, you can find me working on poetry, journalism articles, op-eds, journalism articles (check out 365toJapan.com!).",
-  avatarUrl: "https://media.licdn.com/dms/image/D4E03AQFZd2n_1CkDKA/profile-displayphoto-shrink_400_400/0/1713739995438?e=1722470400&v=beta&t=sxLiupx3HZ1dByNk-q9Ly02c1RGyRFjRDGJrql2B45k",
+    "I am a freshman at the Washington University in St. Louis, primarily interested in computer science and economics. So far, I’ve explored the real-world applications of these fields through projects, research, and internships. In my free time, I often work on poetry/blogging (check out 365toJapan.com!).",
+  avatarUrl: "https://media.licdn.com/dms/image/v2/D4E03AQFZd2n_1CkDKA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1713739995438?e=1731542400&v=beta&t=9GKhYrB9GB78KszeV5olwncurOV599SJbIayZDTXn5M",
   personalWebsiteUrl: "https://taruneswar.com",
   contact: {
     email: "e.tarun@wustl.edu",
@@ -51,7 +52,7 @@ export const RESUME_DATA = {
     {
       school: "Washington University in Saint Louis",
       image: washu,
-      degree: "Bachelor's Degree in Computer Science",
+      degree: "Bachelor's Degree in CS + Econ",
       coursework: "TBD",
       gpa: null,
       start: "2024",
@@ -68,11 +69,11 @@ export const RESUME_DATA = {
       end: "2024",
     },
   ],
-  work: [
-    {
+  additional: [
+     {
       company: "Staples",
       link: "https://www.staples.com/",
-      badges: ["In-Person"],
+      badges: ["Shrewsbury, MA"],
       title: "Retail Associate",
       start: "Oct 2023",
       end: "Present",
@@ -83,31 +84,35 @@ export const RESUME_DATA = {
       link: "https://365tojapan.com/",
       badges: ["Self-Employed"],
       title: "Founder, Author, Developer",
-      start: "2019",
-      end: "Present",
+      start: "Sep 2019",
+      end: "Jun 2024",
       description:
         "Created weekly Japanese blogs (cultural, learning, research); worked with Northeastern lecturer Brett Murphy Hunt as an editor; reached 4000+ global reads and created a successful community haiku contest; developed the platform from scratch with a MERN stack.",
-      
     },
+    
+  ],
+  work: [
     {
       company: "Rakuten",
       link: "https://sixthsense.rakuten.com/platform/cognitive-ai",
-      badges: ["In-Person"],
+      badges: ["Banglore, IN"],
       title: "Software Engineering Learning Intern",
       start: "Jun 2023",
       end: "Aug 2024",
       description:
-        "Leveraged LLMs in building out new capabilities for GenerativeAI in both the front and back-end; focused on the Cognitive Engine front-end with typescript, redux, and tailwind.",
+        // "Leveraged LLMs in building out new capabilities for GenerativeAI in both the front and back-end; focused on the Cognitive Engine front-end with typescript, redux, and tailwind.",
+
+        "Co-developed a QA chatbot (LLMs) to answer company legal questions (95% coverage) with Tiger Team andused quantization methods to optimize Llama2 and Vicuna and store embeddings in a ChromaDB vector. Achieved accurate results with response of ~2.5 seconds (12GB GPU tunneling) and created Django QA model API (Express) with dashboard (React) and JWT / Rakuten legal recommendations to protect documents. Contributed KPI UI feature components for a production B2B product (Cognitive AIOps) on a three-stage testing workflow with proprietary component libraries. Worked with Redux, Typescript, and Vue framework."
     },
     {
       company: "Tufts Financial Group",
       link: "https://www.tuftsfinancialgroup.org/",
-      badges: ["Remote"],
+      badges: ["Medford, MA"],
       title: "Web Developer",
       start: "Sep 2023",
       end: "Jan 2023",
       description:
-        "Pitched improvements to TFG; revamped TFG’s application with improved SEO and design creating a 17% increase in activity metrics; led weekly update meetings with executive members of the organization.",
+        "Collaborated with club executives to revamp web app and SEO capabilities for the club (50+ members). Improved page interactions by 10% and created a more accessible layout and UX for all audiences. Managed minor budget provided by the team for various improvement tasks on the web application.",
     },
     {
       company: "Rakuten SixthSense",
