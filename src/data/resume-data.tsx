@@ -27,7 +27,7 @@ export const RESUME_DATA = {
   initials: "TE",
   location: "Massachusetts, USA",
   locationLink: "https://www.google.com/maps/place/Massachusetts",
-  about: "Computer Science + Econ at WashU",
+  about: "CS + Econ at WashU",
   summary:
     "I am a freshman at the Washington University in St. Louis, primarily interested in computer science and economics. So far, I’ve explored the real-world applications of these fields through projects, research, and internships. In my free time, I often work on poetry/blogging (check out 365toJapan.com!).",
   avatarUrl: "https://media.licdn.com/dms/image/v2/D4E03AQFZd2n_1CkDKA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1713739995438?e=1731542400&v=beta&t=9GKhYrB9GB78KszeV5olwncurOV599SJbIayZDTXn5M",
