@@ -22,7 +22,6 @@ import washu from "../images/logos/washu1.png";
 import mams from "../images/logos/mams.png";
 import profile from "../images/logos/headshot.jpeg";
 
-
 export const RESUME_DATA = {
   name: "Tarun Eswar",
   initials: "TE",
