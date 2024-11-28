@@ -56,7 +56,7 @@ export const RESUME_DATA = {
       coursework: "TBD",
       gpa: null,
       start: "2024",
-      end: "(2028)",
+      end: "(2027)",
     },
     {
       school: "Worcester Polytechnic Institute",
