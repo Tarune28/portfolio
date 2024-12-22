@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -34,6 +36,8 @@
 
     --radius: 0.5rem;
   }
+
+  
 
   .dark {
     --background: 224 71.4% 4.1%;
@@ -103,4 +107,9 @@
 
 .font-bold {
   font-weight: 800!important;
+}
+
+.mx-auto {
+  margin-left: auto!important;
+  margin-right: auto!important;
 }

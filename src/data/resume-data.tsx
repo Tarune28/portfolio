@@ -30,8 +30,21 @@ export const RESUME_DATA = {
   about: "CS + Econ at WashU",
   summary:
     "I am a freshman at the Washington University in St. Louis, primarily interested in computer science and economics. So far, I’ve explored the real-world applications of these fields through projects, research, and internships. In my free time, I often work on poetry/blogging (check out 365toJapan.com!).",
+  tutoringSummary: "Hi, I’m Tarun, a current student at Washington University in St. Louis. Throughout my time there, I’ve enjoyed math and computer science, and now I hope to help high school students achieve their full potential in these areas. With a strong background in mathematics, computer science, and engineering, my services range from AP to college-level classes. A more detailed overview of my services can be found below. ",
+  tutoringServices: [
+    "Algebra",
+    "Geometry",
+    "AP Pre-Calc",
+    "AP Calculus",
+    "Calculus III",
+    "AP Statistics",
+    "AP CSA",
+    "Discrete Math"
+  ],
+  tutoringContact: "If you’re interested in learning more, feel free to contact me at e.tarun@wustl.edu. We will pencil in one free trial session and progress from there. If you require help in a subject related to either math or computer science that’s not listed above, feel free to reach out--I'd be happy to let you know if I can help!",
   avatarUrl: "/headshot.jpeg",
-  personalWebsiteUrl: "https://taruneswar.com",
+  tutoringAvatar: "/headshot.jpeg",
+  personalWebsiteUrl: "https://www.taruneswar.com/headshot.jpeg",
   contact: {
     email: "e.tarun@wustl.edu",
     // tel: "+19784939450",
@@ -46,7 +59,12 @@ export const RESUME_DATA = {
         url: "https://www.linkedin.com/in/tarun-eswar-b10150233/",
         icon: LinkedInIcon,
       },
+      
     ],
+    tutoring: {
+      name: "Tarun",
+      url: "/tutoring",
+    },
   },
   education: [
     {
@@ -95,10 +113,10 @@ export const RESUME_DATA = {
     {
       company: "Rakuten",
       link: "https://sixthsense.rakuten.com/platform/cognitive-ai",
-      badges: ["Banglore, IN"],
+      badges: ["Remote"],
       title: "Software Engineering Learning Intern",
       start: "Jun 2023",
-      end: "Aug 2024",
+      end: "Aug 2023",
       description:
         // "Leveraged LLMs in building out new capabilities for GenerativeAI in both the front and back-end; focused on the Cognitive Engine front-end with typescript, redux, and tailwind.",
 
