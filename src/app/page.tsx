@@ -103,7 +103,7 @@ export default function Page() {
           </div>
 
           <Avatar className="size-40">
-            <AvatarImage alt={RESUME_DATA.name} src={RESUME_DATA.avatarUrl} style={{ borderRadius: "20%" }}/>
+            <AvatarImage alt={RESUME_DATA.name} src={RESUME_DATA.avatarUrl}/>
             <AvatarFallback>{RESUME_DATA.initials}</AvatarFallback>
           </Avatar>
         </div>

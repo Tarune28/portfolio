@@ -80,7 +80,7 @@ export default function Page() {
             </div>
           </div>
           <Avatar className="hidden size-40 sm:block">
-            <AvatarImage alt={RESUME_DATA.name} src={"RESUME_DATA.djAvatarUrl"} />
+            <AvatarImage alt={RESUME_DATA.name} src={RESUME_DATA.tutoringAvatar} />
             <AvatarFallback>{RESUME_DATA.initials}</AvatarFallback>
           </Avatar>
         </div>
