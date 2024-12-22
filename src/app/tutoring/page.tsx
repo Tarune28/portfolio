@@ -93,7 +93,7 @@ export default function Page() {
 
         <Section>
           <h2 className="text-xl font-bold">Experience</h2>
-          <div className="-mx-1 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3 dark">
+          <div className="-mx-1 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3 ">
            <NumberCard
                   key="Number of Students"
                   title="Number of Students"

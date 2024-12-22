@@ -43,7 +43,7 @@ import {
     return (
       <>
         <style>{styles}</style>
-        <Card className="glow flex flex-col overflow-hidden border border-muted p-3 dark:bg-secondary p-3">
+        <Card className="glow flex flex-col overflow-hidden border p-3 dark:bg-secondary p-3">
           <CardHeader className="">
             <div className="items-center space-y-1">
               <div className="inline-flex w-full items-center gap-1">
