@@ -27,9 +27,9 @@ export const RESUME_DATA = {
   initials: "TE",
   location: "Massachusetts, USA",
   locationLink: "https://www.google.com/maps/place/Massachusetts",
-  about: "CS + Econ at WashU",
+  about: "CS + Applied Math at WashU",
   summary:
-    "I am a freshman at the Washington University in St. Louis, primarily interested in computer science and economics. So far, I’ve explored the real-world applications of these fields through projects, research, and internships. In my free time, I often work on poetry/blogging (check out 365toJapan.com!).",
+    "I am a freshman at the Washington University in St. Louis, primarily interested in computer science and applied  math. So far, I’ve explored the real-world applications of these fields through projects, research, and internships. In my free time, I often work on poetry/blogging (check out 365toJapan.com!).",
   tutoringSummary: "Hi, I’m Tarun, a current student at Washington University in St. Louis. Throughout my time there, I’ve enjoyed math and computer science, and now I hope to help high school students achieve their full potential in these areas. With a strong background in mathematics, computer science, and engineering, my services range from AP to college-level classes. A more detailed overview of my services can be found below. ",
   tutoringServices: [
     "Algebra",
@@ -70,7 +70,7 @@ export const RESUME_DATA = {
     {
       school: "Washington University in Saint Louis",
       image: washu,
-      degree: "Bachelor's Degree in CS + Econ",
+      degree: "Bachelor's Degree in CS + Applied Math",
       coursework: "Calculus III, Discrete Math, Introduction to Hardware Engineering, Data Structures and Algorithms",
       gpa: "unreleased",
       start: "2024",
