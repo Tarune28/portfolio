@@ -43,7 +43,7 @@ export const RESUME_DATA = {
   ],
   tutoringContact: "If you’re interested in learning more, feel free to contact me at e.tarun@wustl.edu. We will pencil in one free trial session and progress from there. If you require help in a subject related to either math or computer science that’s not listed above, feel free to reach out--I'd be happy to let you know if I can help!",
   avatarUrl: "/headshot.jpeg",
-  tutoringAvatar: "/headshot.jpeg",
+  tutoringAvatar: "https://www.taruneswar.com/headshot.jpeg",
   personalWebsiteUrl: "https://www.taruneswar.com/headshot.jpeg",
   contact: {
     email: "e.tarun@wustl.edu",
