@@ -14,7 +14,7 @@ import { TutorCard } from "@/components/tutor-card";
 
 export const metadata: Metadata = {
   title: `Tarun Eswar`,
-  description: "RESUME_DATA.djSummary",
+  description: "Hi, I’m Tarun, a current student at Washington University in St. Louis. Throughout my time there, I’ve enjoyed math and computer science, and now I hope to help high school students achieve their full potential in these areas. With a strong background in mathematics, computer science, and engineering, my services range from AP to college-level classes. A more detailed overview of my services can be found below.",
 };
 
 export default function Page() {
