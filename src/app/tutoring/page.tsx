@@ -105,7 +105,7 @@ export default function Page() {
                   key="Average Grade Increase"
                   title="Average Grade Increase"
                   description="meaured across all students"
-                  number="17%"
+                  number="~15%"
                   text_size="lg"
                 />
             <NumberCard
