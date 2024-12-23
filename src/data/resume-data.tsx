@@ -72,7 +72,7 @@ export const RESUME_DATA = {
       image: washu,
       degree: "Bachelor's Degree in CS + Applied Math",
       coursework: "Calculus III, Discrete Math, Introduction to Hardware Engineering, Data Structures and Algorithms",
-      gpa: "unreleased",
+      gpa: "4.0",
       start: "2024",
       end: "(2027)",
     },
