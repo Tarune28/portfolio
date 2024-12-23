@@ -17,10 +17,11 @@ import {
   TastyCloudLogo,
   YearProgressLogo,
 } from "@/images/logos";
-import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
+import { GitHubIcon, LinkedInIcon } from "@/components/icons";
 import washu from "../images/logos/washu1.png";
 import mams from "../images/logos/mams.png";
 import profile from "../images/logos/headshot.jpeg";
+import { DescriptionIcon } from "@/components/icons/DescriptionIcon";
 
 export const RESUME_DATA = {
   name: "Tarun Eswar",
@@ -29,7 +30,7 @@ export const RESUME_DATA = {
   locationLink: "https://www.google.com/maps/place/Massachusetts",
   about: "CS + Applied Math at WashU",
   summary:
-    "I am a freshman at the Washington University in St. Louis, primarily interested in computer science and applied  math. So far, I’ve explored the real-world applications of these fields through projects, research, and internships. In my free time, I often work on poetry/blogging (check out 365toJapan.com!).",
+    "Hi, I’m Tarun, a current student at the Washington University in St. Louis, primarily interested in computer science and applied  math. So far, I’ve explored the real-world applications of these fields through projects, research, and internships. For more details, check out my resume located in the header. In my free time, I often write creative pieces.",
   tutoringSummary: "Hi, I’m Tarun, a current student at Washington University in St. Louis. Throughout my time there, I’ve enjoyed math and computer science, and now I hope to help high school students achieve their full potential in these areas. With a strong background in mathematics, computer science, and engineering, my services range from AP to college-level classes. A more detailed overview of my services can be found below. ",
   tutoringServices: [
     "Algebra",
@@ -59,6 +60,11 @@ export const RESUME_DATA = {
         url: "https://www.linkedin.com/in/tarun-eswar-b10150233/",
         icon: LinkedInIcon,
       },
+      {
+        name: "Resume",
+        url: "/resume.pdf",
+        icon: DescriptionIcon,
+      }
       
     ],
     tutoring: {
@@ -68,9 +74,9 @@ export const RESUME_DATA = {
   },
   education: [
     {
-      school: "Washington University in Saint Louis",
+      school: "Washington University in St. Louis",
       image: washu,
-      degree: "Bachelor's Degree in CS + Applied Math",
+      degree: "Bachelor's Degree in Computer Science + Applied Math",
       coursework: "Calculus III, Discrete Math, Introduction to Hardware Engineering, Data Structures and Algorithms",
       gpa: "4.0",
       start: "2024",
@@ -80,8 +86,7 @@ export const RESUME_DATA = {
       school: "Worcester Polytechnic Institute",
       image: mams,
       degree: "Computer Science",
-      coursework:
-        "Calculus, Systems Programming Concepts, Accelerated Object Oriented Programming, Intermediate Japanese I",
+      coursework: "Object-Oriented Design, Systems Design, Calculus I-III, Applied Statistics",
       gpa: "4.0",
       start: "2023",
       end: "2024",
@@ -163,21 +168,23 @@ export const RESUME_DATA = {
   projects: [
     {
       title: "MAMS SISO",
-      techStack: ["ReactJS", "NodeJS", "ExpressJS", "MySQL", "Raspberry Pi", "Firebase"],
-      description: "A production-level digital student attendance system",
+      techStack: ["ReactJS", "NodeJS", "ExpressJS", "MySQL", "Raspberry Pi", "Firebase", "+ more"],
+      description: "A production-level [direct access restricted] digital student attendance system",
       link: {
-        label: "mams-siso.wpi.edu",
-        href: "https://mams-siso.wpi.edu",
+        label: "mass-academy-sign-in-system.web.app",
+        href: "https://mass-academy-sign-in-system.web.app/",
       },
+      production: true,
     },
     {
-      title: "ProjX",
+      title: "ProjX Careers",
       techStack: ["Firebase", "ExpressJS", "ReactJS", "NodeJS", "Ant-Design"],
       description: "Kickstarting careers through tailored project recommendations",
       link: {
         label: "projx-hbp.web.app",
         href: "https://projx-hbp.web.app/",
       },
+      production: false,
     },
     {
       title: "WPI Roadmap",
@@ -187,6 +194,17 @@ export const RESUME_DATA = {
         label: "roadmap-wpi.web.app",
         href: "https://roadmap-wpi.web.app",
       },
+      production: false,
+    },
+    {
+      title: "WashU Course Planner",
+      techStack: ["ReactJS", "NodeJS", "ExpressJS", "Primsa", "MUI"],
+      description: "Helping students plan their WashU academic journey",
+      link: {
+        label: "washu-course-planner.web.app",
+        href: "https://github.com/dscwashu/washu-course-planner",
+      },
+      production: false,
     },
     {
       title: "MFLogP - Dynamics Lab",
@@ -196,16 +214,27 @@ export const RESUME_DATA = {
         label: "mflogp.wpi.edu",
         href: "https://mflogp.wpi.edu/",
       },
+      production: false,
     },
+    // {
+    //   title: "Trify",
+    //   techStack: ["Flutter", "Dart", "Location Services", "Routing"],
+    //   description: "Accelerating electrification of transportation",
+    //   link: {
+    //     label: "trify.us",
+    //     href: "https://trify.us/",
+    //   },
+    // },
 
     {
-      title: "Modeling T1 Resting-State MRI Variants",
+      title: "Modeling TRS MRI",
       techStack: ["Python", "Tensorflow", "ResNet", "OpenCV", "GradCam", "Flask"],
       description: "A deep learning model to predict OCD from fMRI scans",
       link: {
         label: "arXiv",
         href: "https://arxiv.org/abs/2306.12435v2",
       },
+      production: true,
     },
     // {
     //   title: "TriggerCalc",
